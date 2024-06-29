@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChamberMaster//Event Calendar 2.0//EN
+METHOD:PUBLISH
+X-PUBLISHED-TTL:P1H
+REFRESH-INTERVAL:P1H
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:Eastern Daylight Time
+END:DAYLIGHT
+BEGIN:STANDARD
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20070101T000000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:Eastern Standard Time
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20240708T090000
+DTEND;TZID=America/New_York:20240710T080000
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+SUMMARY:European Chapter Information Science Trends (IST) 2024
+DESCRIPTION:The event is part of the series on Information Science Trends (IST). The events focus on current research topics\, including invited speakers from research and industry. This event provides an opportunity to network and share ideas and interests from the different fields of information science and related disciplines. This event will be held online.\n\nThank you for registering.  If you have any questions please contact Pamela Yonker at pyonker@asist.org or 301.495.0900.
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE html><html><head><title></title></head><body aria-disabled="false"><p>The event is part of the series on<b style="mso-bidi-font-weight:normal\;">&nbsp\;<i style="mso-bidi-font-style:normal\;">Information Science Trends (IST)</i>.</b> The events focus on current research topics\, including invited speakers from research and industry. This event provides an opportunity to network and share ideas and interests from the different fields of <b style="mso-bidi-font-weight:normal\;">information science and related disciplines.</b> This event will be held online.</p></body></html>\n<!DOCTYPE html><html><head><title></title></head><body aria-disabled="false"><p><br></p><p style="margin: 0px 0px 10.66px\;"><font>Thank you for registering.<span style="margin: 0px\;">&nbsp\;&nbsp\;</span>If you have any questions please contact Pamela Yonker at pyonker<a fr-original-style="-ms-user-select: auto\;" style="-ms-user-select: auto\;">@asist.org</a> or 301.495.0900.</font></p><p><br></p></body></html>
+LOCATION:
+UID:e.1224.970780
+SEQUENCE:3
+DTSTAMP:20240623T014029Z
+URL:https://www2.asist.org/events/Details/european-chapter-information-science-trends-ist-2024-1107751?sourceTypeId=Hub
+END:VEVENT
+END:VCALENDAR
